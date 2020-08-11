@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_bg"
+    android:padding="5dp"
+    tools:context=".UI.activities.MainActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:id="@+id/txt_skip"
+        android:text="Just Skip"
+        android:fontFamily="@font/cairo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/log_in"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+       android:fontFamily="@font/cairo"
+        android:background="@android:color/black"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txt_skip"
+        android:layout_marginBottom="20dp"
+        android:text="Log In"
+        android:textSize="25sp" />
+
+</RelativeLayout>
+</layout>

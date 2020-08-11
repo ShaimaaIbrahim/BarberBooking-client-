@@ -1,0 +1,5 @@
+<root>
+    <item name='androidx.databinding.DataBindingUtil'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

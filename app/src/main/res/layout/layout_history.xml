@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_booking_date"
+            android:paddingLeft="8dp"
+            android:textColor="@android:color/black"
+            android:background="#EBEBEBEB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12/10/2019"/>
+        <TextView
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txt_booking_salon"
+            android:paddingLeft="8dp"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salon #1"/>
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/ic_location_on_black_24dp"
+            android:paddingLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_salon_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="casual"
+            android:paddingLeft="4dp"
+            android:text="4 st ahmed oraby"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:paddingLeft="4dp"
+            android:text="Booking Information"
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:src="@drawable/ic_event_note_black_24dp"
+                android:paddingLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:id="@+id/txt_salon_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="casual"
+                android:paddingLeft="4dp"
+                android:text="10 am at 30/10"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:src="@drawable/ic_account_circle_black_24dp"
+                android:paddingLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:id="@+id/txt_barber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="casual"
+                android:paddingLeft="4dp"
+                android:text="David"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

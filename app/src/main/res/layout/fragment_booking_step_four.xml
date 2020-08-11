@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".UI.fragments.BookingStep1Fragment">
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/image_logo"
+        android:layout_gravity="center_horizontal"
+        />
+
+<LinearLayout
+    android:background="@drawable/rounded_dialog"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:textAllCaps="true"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/cairo"
+    android:text="Thank you for Booking our service!" />
+
+    <TextView
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cairo"
+        android:text="Booking Information" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/ic_event_note_black_24dp"
+          />
+        <TextView
+            android:id="@+id/txt_barber_booking"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cairo"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="at sat 15 2020m"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            />
+        <TextView
+            android:id="@+id/txt_barber_name"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cairo"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="David"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="4dp"
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <TextView
+        android:id="@+id/txt_salon_name"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cairo"
+        android:text="Salon #1" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_web_black_24dp"
+            />
+        <TextView
+            android:id="@+id/txt_salon_website"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cairo"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https://youtube.edmetdev.shaimaa"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_local_phone_black_24dp"
+            />
+        <TextView
+            android:id="@+id/txt_salon_phone"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cairo"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+201095348941"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_alarm_black_24dp"
+            />
+        <TextView
+            android:id="@+id/txt_salon_time"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cairo"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:00 - 19:00 hour"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_location_on_black_24dp"
+            />
+        <TextView
+            android:id="@+id/txt_salon_location"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cairo"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address of Salon #1"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/confirm"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/cairo"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        />
+</LinearLayout>
+</LinearLayout>
+</layout>
